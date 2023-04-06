@@ -18,3 +18,24 @@ def CalcularNotas (Notas):
     Média = sum(Notas) / QuantidadeDeNotas
     return Média
 print(CalcularNotas(Notas))
+
+#exercício 4
+
+Lista4 = ['a, b, c, d, e, f, g, h, i, j']
+
+vogal = "a,e,i,o,u"
+
+vogal=False
+
+if vogal =! True
+
+Lista4.pop()
+
+else vogal = True
+
+print()
+
+
+
+
+
