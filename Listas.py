@@ -54,7 +54,7 @@ for i in Lista5:
     contador+= 1
 print("números totais",Lista5)
 print ("números pares:",Pares)
-print ("números impares:",Impares)'''
+print ("números impares:",Impares)
 
 #Exercício 7
 
@@ -73,4 +73,40 @@ def Multiplicação(Números):
     for i in Números:
         multiplicação *= i
     return multiplicação
-print(Multiplicação(Números))    
+print(Multiplicação(Números))
+
+#exercício 8
+
+idades = []
+alturas = []
+for i in range(0,5):
+    print('digite uma idade')
+    idade = input()
+    print('digite uma altura em metros')
+    altura = input()
+    idades.append(idade)
+    alturas.append(altura)
+
+idades.reverse()
+alturas.reverse()
+
+contador = 0
+
+for i in idades:
+    print('Usúario' + str(contador + 1) + ':')
+    print('idade' + str(i))
+    print('altura' + str(alturas[contador]))
+    contador += 1'''
+
+#Exercício 9
+
+lista9 = [50,100,150,200,250,300,350,400,450,500]
+
+def SomaDeTodosOsQuadrados(inteiros):
+    soma = 0
+    for i in inteiros:
+        soma += i * i
+    return soma
+    
+print('lista dos números:' + str(lista9))
+print('soma de todos os números ao quadrado:' + str(SomaDeTodosOsQuadrados(lista9)))
