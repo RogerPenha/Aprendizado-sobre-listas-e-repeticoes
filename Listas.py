@@ -96,7 +96,7 @@ for i in idades:
     print('Usúario' + str(contador + 1) + ':')
     print('idade' + str(i))
     print('altura' + str(alturas[contador]))
-    contador += 1'''
+    contador += 1
 
 #Exercício 9
 
@@ -109,4 +109,17 @@ def SomaDeTodosOsQuadrados(inteiros):
     return soma
     
 print('lista dos números:' + str(lista9))
-print('soma de todos os números ao quadrado:' + str(SomaDeTodosOsQuadrados(lista9)))
+print('soma de todos os números ao quadrado:' + str(SomaDeTodosOsQuadrados(lista9)))'''
+
+ListaVetorA = [1,2,3,4,5,6,7,8,9,10]
+ListaVetorB = [11,12,13,14,15,16,17,18,19,20]
+ListaVetorC = []
+
+contador = 0
+for i in ListaVetorA:
+    ListaVetorC.append(i)
+    ListaVetorC.append(ListaVetorB[contador])
+    contador += 1
+    print (ListaVetorC)
+
+
