@@ -1,10 +1,16 @@
-ListaVetorA = [1,2,3,4,5,6,7,8,9,10]
-ListaVetorB = [11,12,13,14,15,16,17,18,19,20]
-ListaVetorC = []
+print('insira um número')
+PrimeiroInteiro = int(input())
+print('insira um número')
+SegundoInteiro = int(input())
 
-contador = 0
-for i in ListaVetorA:
-    ListaVetorC.append(i)
-    ListaVetorC.append(ListaVetorB[contador])
-    contador += 1
-    print (ListaVetorC)
+print('algarismo entre os dois valores:')
+if PrimeiroInteiro < SegundoInteiro:
+    while PrimeiroInteiro != SegundoInteiro:
+        PrimeiroInteiro += 1
+        if PrimeiroInteiro != SegundoInteiro:
+            print(PrimeiroInteiro)
+else: 
+    while SegundoInteiro != PrimeiroInteiro:
+        SegundoInteiro += 1
+        if SegundoInteiro != PrimeiroInteiro:
+            print(SegundoInteiro)
