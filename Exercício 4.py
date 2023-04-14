@@ -1,12 +1,11 @@
-Lista4 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
-vogais = ['a','e','i','o','u']
-ListadeConsoantes = []
-consoantes = 0
-contador = 0
-for i in Lista4:
-        if not  Lista4 [contador] in vogais:
-            consoantes+=1
-            ListadeConsoantes.append(Lista4[contador])
-        contador += 1
-print(ListadeConsoantes)
-print (consoantes)
+PaísA = 80000
+PaísB = 200000
+Anos = 0
+
+while (PaísB > PaísA):
+    PaísA *= 1.03
+    PaísB *= 1.015
+    Anos += 1
+print('Irá demorar',Anos,'anos para o país A alcançar o país B')
+
+    
