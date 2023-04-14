@@ -1,3 +1,12 @@
-Lista2 = [1,2,3,4,5]
-Lista2.reverse()
-print(Lista2)
+Condição = False
+
+while Condição != True:
+    print('Usuário:')
+    Usuário = input()
+    print ('Senha:')
+    Senha = input()
+    if Usuário != Senha:
+        print('Acessado com sucesso')
+        Condição = True
+    else:
+        print('Usuário e Senha inválidos')
