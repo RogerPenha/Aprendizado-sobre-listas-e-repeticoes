@@ -1,20 +1,11 @@
-idades = []
-alturas = []
-for i in range(0,5):
-    print('digite uma idade')
-    idade = input()
-    print('digite uma altura em metros')
-    altura = input()
-    idades.append(idade)
-    alturas.append(altura)
-
-idades.reverse()
-alturas.reverse()
-
+números = [42,3,18,24,56]
 contador = 0
+Soma = 0
+Média = 0
 
-for i in idades:
-    print('Usúario' + str(contador + 1) + ':')
-    print('idade' + str(i))
-    print('altura' + str(alturas[contador]))
+while (contador < len(números)):
+    Soma += números[contador]
     contador += 1
+Média = Soma/len(números)
+print('Soma dos números:' + str(Soma))
+print('Média da soma dos números:' + str(Média))
