@@ -1,12 +1,11 @@
 Condição = False
 
 while Condição != True:
-    print('Usuário:')
+    print('digite o Usuário:')
     Usuário = input()
-    print ('Senha:')
-    Senha = input()
-    if Usuário != Senha:
-        print('Acessado com sucesso')
-        Condição = True
+    print('digite a senha:')
+    Senha = input
+    if Senha != Usuário:
+        print('Acessado com Sucesso')
     else:
-        print('Usuário e Senha inválidos')
+        print('Senha e usuário inválidos')
