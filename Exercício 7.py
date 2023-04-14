@@ -1,16 +1,9 @@
-Números = [3,5,9,4,7]
-print(Números)
+números = [1,15,800,4,20]
+MaiorNúmero = 0
+contador = 0
 
-def Soma(Números):
-    soma = 0
-    for i in Números:
-        soma = soma + i
-    return soma
-print(Soma(Números))
-
-def Multiplicação(Números):
-    multiplicação = 1
-    for i in Números:
-        multiplicação *= i
-    return multiplicação
-print(Multiplicação(Números))
+while (contador != len(números)):
+    if MaiorNúmero < (números[contador]):
+        MaiorNúmero = (números[contador])
+    contador += 1
+print('O maior número da lista é:' + str(MaiorNúmero))
