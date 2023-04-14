@@ -1,7 +1,10 @@
-Lista1 = []
-Lista1.append(5)
-Lista1.append(7)
-Lista1.append(10)
-Lista1.append(4)
-Lista1.append(2)
-print(Lista1)
+index = 0
+
+while(index == 0):
+    print('Insira um valor de 1 a 10')
+    entradatemp = int(input())
+    if entradatemp >= 0 and entradatemp <= 10:
+        index = 1
+    else:
+        print('Valor Inválido')
+
