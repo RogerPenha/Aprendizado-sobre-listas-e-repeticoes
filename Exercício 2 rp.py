@@ -4,7 +4,7 @@ while Condição != True:
     print('digite o Usuário:')
     Usuário = input()
     print('digite a senha:')
-    Senha = input
+    Senha = input()
     if Senha != Usuário:
         print('Acessado com Sucesso')
     else:
