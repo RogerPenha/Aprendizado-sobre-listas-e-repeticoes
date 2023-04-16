@@ -34,7 +34,7 @@ while CondiçãoSalário != True:
 while CondiçãoSexo != True:
     print('Digite o seu gênero: m para masculino e f para feminino:')
     Sexo = input()
-    if Sexo == 'm' or 'f':
+    if Sexo == 'm' or Sexo == 'f':
         print('Genêro inserido com sucesso')
         CondiçãoSexo = True
     else:
@@ -44,7 +44,7 @@ while CondiçãoEstadoCivil != True:
     print('Digite o seu estado civil: s para solteiro,c para casado,v para viúvo(a) e d para divorciado:')
     EstadoCivil = input()
     
-    if EstadoCivil == 's' or 'c' or 'v' or 'd':
+    if EstadoCivil == 's' or EstadoCivil == 'c' or EstadoCivil =='v' or EstadoCivil == 'd':
         print('Estado civil inserido com sucesso')
         CondiçãoEstadoCivil = True
     else:
