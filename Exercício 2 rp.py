@@ -7,5 +7,6 @@ while Condição != True:
     Senha = input()
     if Senha != Usuário:
         print('Acessado com Sucesso')
+        Condição = True
     else:
         print('Senha e usuário inválidos')
